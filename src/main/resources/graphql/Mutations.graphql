@@ -1,0 +1,4 @@
+type Mutation{
+    saveUser(userDTO:UserDTOInput): UserDTO
+    deleteUser(id:ID):UserDTO
+}
